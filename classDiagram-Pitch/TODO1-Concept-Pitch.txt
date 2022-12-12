@@ -1,0 +1,70 @@
+Project: Capture The Flag (2 Player or CPU)
+
+******** SUMMARY *********
+This project concept is based on a popular game called Capture The Flag. The general idea is we have 2 teams (red and blue team for example), each team has 3 players and a flag at their home base. The player that is controlled by the user can be moved via WSAD or arrow keys, and can shoot enemies using spacebar key. The objective of the game is to obtain the enemy's flag and bring it back to your home base to gain 1 point, likewise for the enemy. The game time limit is set to 1 min, and the winner is selected for the team that has the most points.
+
+To further elaborate, when the game starts, the players are placed at their home position and will also display obstacle objects in the middle section of the window. The obstacles will stay in position and never move however, the players must maneuver around the obstacles to get across to the enemy's base which makes it less smooth to gain points. The players that are not controlled by the User will be moving and following the game logic, by means of trying to obtain the enemy's flag and returning it to home base. As mentioned, players can shoot other players, for example, if the enemy has your flag, the player can shoot the enemy and drop your flag so that your player can return the flag back to your home base which will prevent the enemy's team from gaining a point, likewise for the Enemy. However, the player that has a flag will not be able to shoot which means they would have to avoid the projectiles that are being shot from the enemy or else they will drop the flag. If the player is shot from the enemy, the player will reset its position back to their home base.
+
+As for the players that are not controlled by the User, basically the CPU Bots, they will be following the game logic and trying to help you obtain a point as well by trying to shoot the enemies and obtaining the flag from the enemy. However, if your CPU bot has the enemy flag and the enemy has your team's flag as well, the CPU Bot will compare the distance from the enemy who has the flag and the distance from its team's home base with its position which will help prioritize the option they will make. If the enemy will your team's flag is closer to your CPU Bot with the flag, then it will try to shoot the enemy to drop the flag and return it to home base so that it can prevent the enemy from obtaining a point, however, if your CPU Bot is closer to the home base then it will rather return to its home base first and obtain the point and then try to shoot the enemy.
+
+The project will need a database or JSON file that will store and update the high scores on a leaderboard after every game it ends. It will also need a server as well to help connect locally with the server and also allow communication between 2 players from different computers on the same server. As of right now, at minimum we will need to create 8 - 10 classes and will be implementing 3 interfaces.
+
+
+******** NOTES *********
+Rules:
+- 2 teams (i.e. Red / Blue)
+- Each team has 3 players
+- Each team has a flag at their own home base
+- Time limit (i.e. 1 min)
+- The window will display obstacle objects
+    -> Makes it difficult for players since they would have to move around to get to their enemies flag
+
+How to Play:
+- Players move using arrow keys or WSAD
+- Spacebar key to shoot projectiles
+- Obtain the enemy's flag and take it to your home base for 1 point
+- Winner is selected for the team that has the most points
+- If the player drops the flag (from getting shot by the enemy) then the flag stays in position
+    -> If the same team player picks up the flag, they can continue from that position
+    -> If the enemy picks up the flag (their own flag), the flag gets sent back to its home base position
+- Player with the flag cannot shoot (disable shoot feature)
+
+Features:
+- Leaderboard implementation (JSON / Server updates file after game ends)
+- Each player could shoot a projectile to an enemy, where the enemy would get sent back to their home base
+- User could choose to play against the cpu or another player from the same server (on a different computer)
+- Players that are not controlled by the user(s) which are CPU Bots, will be trying to obtain the enemy's flag as well following the game logic
+    -> Should also be able to maneuver the obstacles
+
+Technical:
+- Database or server JSON file that stores the high scores on a leaderboard
+    -> Server should update the file after each game ends (not against CPU)
+    -> Store up to 10 high scores, with the name of the player, date and time game ended, server ID?
+- Server to communicate with Database or JSON file
+    -> Also sets up a server that both players from different computers so that they can play against each other
+
+********** CODE STRUCTURE **********
+Class:
+- Player
+- Bot (CPU controlled characters)
+- Projectile (for shooting)
+- Obstacle (gets drawn on the window)
+- BoundingBox
+- Flag
+- ScoreTracker
+- TeamCollection (for iterator)
+- Window
+
+SOLID:
+- AbstractCharacters (extended by Player, Bots)
+- AbstractObserverable
+- AbstractObserver
+    - Notifies all players in the same team when their flag is taken
+    - CPU Bots will change direction and try to shoot the enemy with their flag
+- Comparable interface
+    - If CPU Bot has the enemy flag but Enemy has their team's flag then CPU Bot will
+    need to compare the distance from enemy to itself and the distance from their home flag
+    and prioritize what's closer
+        -> If enemy is closer, it will prioritize to shoot the enemy rather than bringing the flag back to home
+        -> If home base is closer, then it will prioritize obtaining the point by taking the enemy flag back to home
+- Iterable / Iterator interface

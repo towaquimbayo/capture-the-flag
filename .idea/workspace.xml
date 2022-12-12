@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b43f177e-1f68-40bf-8996-df6f2ab23ec4" name="Changes" comment="Applied SOLID principles and cleaned up code" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/project">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/src">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H04URWny2YxedIJwyCIwk7jbxT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elber/IdeaProjects/sl-07-towaquimbayo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35632184&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\library" />
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\src\main\java\org\bcit\comp2522\project" />
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\SequenceDiagram" />
+      <recent name="C:\Users\elber\IdeaProjects\demo" />
+      <recent name="C:\Users\elber\IdeaProjects\demo\src\main\java\org\bcit\comp2522\labs\lab06" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\src\media" />
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\src\main\java\org\bcit\comp2522\project" />
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\src\Sound" />
+      <recent name="C:\Users\elber\IdeaProjects\project-towa-alex\CommunicationDiagram" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.bcit.comp2522.project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Window">
+    <configuration name="Window" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18.0.2.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="PASS" value="5HTtuASYCyzCumDN@leaderboard.iuhez2r.mongodb.net/?retryWrites=true&amp;w=majority" />
+        <env name="USER" value="towaquimbayo" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.bcit.comp2522.project.Window" />
+      <module name="Project.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/elber/IdeaProjects/project-towa-alex/project [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/project" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/elber/IdeaProjects/project-towa-alex/src [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="project-towa-alex [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="project-towa-alex [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sound.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/library/sound.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.project-towa-alex [build]" />
+        <item itemvalue="JAR Application.sound.jar" />
+        <item itemvalue="Gradle.C:/Users/elber/IdeaProjects/project-towa-alex/src [build]" />
+        <item itemvalue="Gradle.C:/Users/elber/IdeaProjects/project-towa-alex/project [build]" />
+        <item itemvalue="Gradle.project-towa-alex [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b43f177e-1f68-40bf-8996-df6f2ab23ec4" name="Changes" comment="" />
+      <created>1667408683420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667408683420</updated>
+      <workItem from="1667408686002" duration="390000" />
+      <workItem from="1667409526165" duration="446000" />
+      <workItem from="1667418665563" duration="12543000" />
+      <workItem from="1667584853882" duration="249000" />
+      <workItem from="1667692079616" duration="24516000" />
+      <workItem from="1667771726287" duration="6849000" />
+      <workItem from="1667845210673" duration="855000" />
+      <workItem from="1667846147454" duration="2481000" />
+      <workItem from="1667850581158" duration="9292000" />
+      <workItem from="1667893963922" duration="7000" />
+      <workItem from="1667950064189" duration="6640000" />
+      <workItem from="1668027019288" duration="10266000" />
+      <workItem from="1668127704481" duration="69000" />
+      <workItem from="1668128192833" duration="1074000" />
+      <workItem from="1668207299088" duration="663000" />
+      <workItem from="1668379852331" duration="15629000" />
+      <workItem from="1668459171995" duration="608000" />
+      <workItem from="1668464913076" duration="5051000" />
+      <workItem from="1668532077303" duration="14897000" />
+      <workItem from="1668554971063" duration="5147000" />
+      <workItem from="1668630377433" duration="5222000" />
+      <workItem from="1668798945831" duration="40037000" />
+      <workItem from="1668980923638" duration="616000" />
+      <workItem from="1669010405443" duration="488000" />
+      <workItem from="1669069333158" duration="2432000" />
+      <workItem from="1669140283397" duration="37427000" />
+      <workItem from="1669198682941" duration="1184000" />
+      <workItem from="1669225269629" duration="8225000" />
+      <workItem from="1669233911734" duration="2868000" />
+      <workItem from="1669418395756" duration="692000" />
+      <workItem from="1669662328501" duration="2175000" />
+      <workItem from="1669684334435" duration="780000" />
+      <workItem from="1669696886769" duration="2908000" />
+      <workItem from="1669699809411" duration="2411000" />
+      <workItem from="1669759915229" duration="4328000" />
+      <workItem from="1669771542671" duration="191000" />
+      <workItem from="1670120733288" duration="116000" />
+      <workItem from="1670120864742" duration="93000" />
+      <workItem from="1670120973246" duration="452000" />
+      <workItem from="1670121436908" duration="755000" />
+      <workItem from="1670122208236" duration="1607000" />
+      <workItem from="1670123830545" duration="15141000" />
+      <workItem from="1670198443342" duration="610000" />
+      <workItem from="1670221848125" duration="221000" />
+      <workItem from="1670362222531" duration="291000" />
+      <workItem from="1670808539328" duration="333000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implemented UML Class Diagram to development. All classes, variables, methods are implemented. Initial setup completed.">
+      <created>1667456841985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667456841985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="All modules pushed">
+      <created>1667457752585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667457752585</updated>
+    </task>
+    <task id="LOCAL-00003" summary="All modules pushed">
+      <created>1667457779456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667457779456</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed Draw methods for all classes. Completed move method for all classes except for Bot. Implemented Score functionality, Timer, Obstacle, Flag pick up and drop functionality.">
+      <created>1667775735552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667775735552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed Menu and other screens">
+      <created>1669197281828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669197281828</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Environmental Variables">
+      <created>1669235059551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669235059551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Restricted user input to alphabet and numbers">
+      <created>1669697596461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669697596461</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added space conversion to underscore">
+      <created>1669702212571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669702212571</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added background music">
+      <created>1670132369342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670132369342</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Applied SOLID principles and cleaned up code">
+      <created>1670145134143</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670145134143</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Implemented UML Class Diagram to development. All classes, variables, methods are implemented. Initial setup completed." />
+    <MESSAGE value="All modules pushed" />
+    <MESSAGE value="Completed Draw methods for all classes. Completed move method for all classes except for Bot. Implemented Score functionality, Timer, Obstacle, Flag pick up and drop functionality." />
+    <MESSAGE value="Completed Menu and other screens" />
+    <MESSAGE value="Environmental Variables" />
+    <MESSAGE value="Restricted user input to alphabet and numbers" />
+    <MESSAGE value="Added space conversion to underscore" />
+    <MESSAGE value="Added background music" />
+    <MESSAGE value="Applied SOLID principles and cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied SOLID principles and cleaned up code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="14" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

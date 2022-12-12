@@ -1,1 +1,4 @@
-# capture-the-flag
+# Summary
+Capture The Flag is a personal project based on the popular game where we split into two teams and each team has a player object and a flag. The general idea is similar to the original, where the objective is to obtain the enemy's flag and bring it back to your home base to obtain a point. The time limit is set to 60 seconds, so the winner is chosen from whoever has the most points in the round. There are many obstacles in the middle of the field that the player will need to manoeuvre around, but they can always be used as an advantage against the opponent.
+
+If two players collide, the player who was going at a slower speed compared to the opponent will be sent back to their home, and the speed is calculated from X and Y vectors using PVector in the PApplet class that is within the Processing Org library. Once the game ends, the player who won can enter their name, and if they score within the top 10 on the leaderboard, they will be added synchronously to the database. The project was developed using Java, Processing.org for its libraries, and MongoDB for the database to keep track of the leaderboard statistics.
